@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    background-color: rgb(0, 0, 0);  
+}
+
+.banner {
+    display: flex;
+    height: 3rem;
+    background-color: white;
+}
+
+.watermark {
+    width: 3rem;
+    border-right: 2px solid black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex: auto;
+}
+
+.nav_button {
+    line-height: 3rem;
+    width: 33.333333%;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.main {
+    width: 90%;
+    min-height: 622px;
+    margin: auto;
+    background-color: white;
+    border-bottom: 6px solid #818181;
+    border-left: 6px solid #818181;
+    border-right: 6px solid #818181;
+    border-radius: 8px;
+}
+
+.portrait {
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+.header {
+    padding: 12% 6%;
+    font-weight: Bolder;
+}
+
+.page_content {
+    padding: 0% 5%;
+}
+
+.bio_head {
+    padding: 3% 3%;
+}
+
+.bio_text {
+    background: 
+            url(top_left.jpg) no-repeat top left / 15px 15px,
+            url(top_right.jpg) no-repeat top right / 15px 15px,
+            url(bottom_right.jpg) no-repeat bottom right / 15px 15px,
+            url(bottom_left.jpg) no-repeat bottom left / 15px 15px;
+    padding: 2% 2%;
+}
+
+.quote {
+    width: 50%;
+    margin: auto;
+    padding: 10% 0;
+    min-width: 10rem;
+    text-align: center;
+}
+
+.foot_banner {
+    width: 75%;
+    max-width: 40rem;
+    background: rgb(0, 0, 0);
+    margin: 0 auto;
+    max-height: 5rem;
+}
+
+.foot_button {
+    justify-content: center;
+    padding: 5%;
+    max-width: 5rem;
+    background: radial-gradient( white, black 60%);
+}
+
+.social_link :hover{
+    background-color: rgb(28, 96, 241);
+    border-radius: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .page_content {
+        display: flex;
+        height: 20rem;
+        justify-content: space-evenly; 
+        /* padding-top: 3%;       */
+    }
+
+    .header {
+        padding: 10% 4%;
+    }
+
+    .self_pic {
+        width: 40%;
+    }
+
+    .bio {
+        width: 40%;
+    }
+
+    .bio_head {
+        padding: 10% 0% 5% 4%;
+    }
+
+    .bio_text {
+        padding: 10% 5%;
+    }
+}
