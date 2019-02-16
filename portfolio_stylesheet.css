@@ -66,13 +66,19 @@ nav {
     border-radius: 8px;
 }
 
-.portrait {
+.project_pic:hover {
+    border: solid rgb(28, 96, 241) 5px;
+}    
+
+.section_pic {
     border-radius: 10px;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
 }
 
 .header {
-    padding: 12% 6%;
+    text-align: center;
+    padding-bottom: 14%;
+    padding-top: 14%;
     font-weight: Bolder;
     font-size: 100px;
     color: rgb(179, 179, 179);
@@ -80,25 +86,47 @@ nav {
 
 .page_content {
     padding: 0% 5%;
+    margin-bottom: 10rem;
 }
 
-.bio_head {
-    padding: 3% 3%;
+.page_section_head {
+    display: flex;
+    justify-content: space-between;
 }
 
-.bio_text {
+.page_section_head_text {
+    margin: 3% 0;
+}
+
+.project_links {
+    padding-top: 5%;
+    font-size: 12px;
+}
+
+.live_link {
+    padding-right: .5rem;
+    border-right: solid black 2px;
+}
+
+.git_link {
+    padding-left: .4rem;
+}
+
+.page_section_text {
     background: 
             url(top_left.jpg) no-repeat top left / 15px 15px,
             url(top_right.jpg) no-repeat top right / 15px 15px,
             url(bottom_right.jpg) no-repeat bottom right / 15px 15px,
             url(bottom_left.jpg) no-repeat bottom left / 15px 15px;
     padding: 2% 2%;
+    margin-top: 10%;
+    text-align: center;
 }
 
 .quote {
     width: 50%;
     margin: auto;
-    padding: 10% 0;
+    padding: 0% 0 15% 0;
     min-width: 10rem;
     text-align: center;
 }
@@ -136,22 +164,33 @@ nav {
     }
 
     .header {
+        text-align: left;
         padding: 10% 4%;
     }
 
-    .self_pic {
+    .section_pic_box {
         width: 40%;
     }
 
-    .bio {
+    .page_section {
         width: 40%;
     }
 
-    .bio_head {
-        padding: 10% 0% 5% 4%;
+    .page_section_head_text {
+        margin: 10% 0;
     }
 
-    .bio_text {
+    .project_links {
+        padding-top: 12%;
+    }
+
+    .page_section_text {
         padding: 10% 5%;
+        margin-top: 0;
+        text-align: left;
+    }
+
+    .quote {
+        padding: 5% 0 10% 0;
     }
 }
