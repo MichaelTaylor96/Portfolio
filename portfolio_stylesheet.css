@@ -22,9 +22,13 @@ body {
     background-color: white;
 }
 
+.watermark_box {
+    margin: 0 47%;
+}
+
 .watermark {
-    width: 3rem;
-    border-right: 2px solid black;
+    width: 100%;
+    padding-bottom: 3%;
 }
 
 nav {
@@ -33,13 +37,22 @@ nav {
     flex: auto;
 }
 
-.nav_button {
+.nav_link {
     line-height: 3rem;
     width: 33.333333%;
     border-bottom: 2px solid black;
     border-left: 2px solid black;
     border-right: 2px solid black;
     text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.nav_link:hover {
+    border: 5px solid rgb(28, 96, 241);
+    color: rgb(28, 96, 241);
+    line-height: 2rem;
 }
 
 .main {
@@ -61,6 +74,8 @@ nav {
 .header {
     padding: 12% 6%;
     font-weight: Bolder;
+    font-size: 100px;
+    color: rgb(179, 179, 179);
 }
 
 .page_content {
@@ -98,8 +113,9 @@ nav {
 
 .foot_button {
     justify-content: center;
-    padding: 5%;
+    padding: 1.5rem;
     max-width: 5rem;
+    min-width: 5rem;
     background: radial-gradient( white, black 60%);
 }
 
@@ -109,11 +125,14 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
+    .nav_button {
+        font-size: 30px;
+    }
+
     .page_content {
         display: flex;
         height: 20rem;
         justify-content: space-evenly; 
-        /* padding-top: 3%;       */
     }
 
     .header {
