@@ -29,7 +29,7 @@ body {
 
 .watermark {
     width: 100%;
-    padding-bottom: 15px;
+    padding-bottom: 3rem;
 }
 
 nav {
@@ -91,12 +91,12 @@ nav {
     padding-top: 14%;
     font-weight: Bolder;
     font-size: 80px;
-    color: rgb(179, 179, 179);
+    color: rgb(219, 216, 196);
 }
 
 .page_content {
     padding: 0% 5%;
-    margin-bottom: 10rem;
+    margin-bottom: 6rem;
 }
 
 .page_section_head {
@@ -123,10 +123,10 @@ nav {
 
 .page_section_text {
     background: 
-            url(top_left.jpg) no-repeat top left / 15px 15px,
-            url(top_right.jpg) no-repeat top right / 15px 15px,
-            url(bottom_right.jpg) no-repeat bottom right / 15px 15px,
-            url(bottom_left.jpg) no-repeat bottom left / 15px 15px;
+            url(/images/top_left.jpg) no-repeat top left / 15px 15px,
+            url(/images/top_right.jpg) no-repeat top right / 15px 15px,
+            url(/images/bottom_right.jpg) no-repeat bottom right / 15px 15px,
+            url(/images/bottom_left.jpg) no-repeat bottom left / 15px 15px;
     padding: 2% 2%;
     margin-top: 10%;
     text-align: center;
@@ -189,10 +189,10 @@ nav {
 
 .resume_text {
     background: 
-            url(top_left.jpg) no-repeat top left / 15px 15px,
-            url(top_right.jpg) no-repeat top right / 15px 15px,
-            url(bottom_right.jpg) no-repeat bottom right / 15px 15px,
-            url(bottom_left.jpg) no-repeat bottom left / 15px 15px;
+            url(/images/top_left.jpg) no-repeat top left / 15px 15px,
+            url(/images/top_right.jpg) no-repeat top right / 15px 15px,
+            url(/images/bottom_right.jpg) no-repeat bottom right / 15px 15px,
+            url(/images/bottom_left.jpg) no-repeat bottom left / 15px 15px;
     padding: 9px 9px;
     margin-left: 8%;
 }
