@@ -24,12 +24,14 @@ body {
 }
 
 .watermark_box {
-    margin: 0 47%;
+    display: block;
+    margin: auto;
+    width: 4rem;
+    margin-bottom: 3rem;
 }
 
 .watermark {
     width: 100%;
-    padding-bottom: 3rem;
 }
 
 nav {
@@ -50,6 +52,10 @@ nav {
     text-decoration: none;
     color: black;
     font-size: 15px;
+}
+
+.nav-icon {
+    display: none;
 }
 
 .vl {
@@ -90,7 +96,7 @@ nav {
 }
 
 .section_pic_box {
-    align-items: center;
+    display: flex;
 }
 
 .header {
@@ -114,7 +120,10 @@ nav {
 }
 
 .detail_content h2 {
-    margin-left: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+    text-align: center;
+    font-size: 5rem;
 }
 
 .detail_section {
@@ -185,7 +194,7 @@ a .page_section_head_text {
 .foot_button {
     justify-content: center;
     padding: .5rem;
-    max-width: 25%;
+    max-width: 5rem;
 }
 
 .social_link :hover{
@@ -270,6 +279,12 @@ a .page_section_head_text {
         font-size: 20px;
     }
 
+    .nav-icon {
+        width: 2rem;
+        display: block;
+        margin-right: 5px;
+    }
+
     .banner {
         height: 4rem;
     }
@@ -290,7 +305,7 @@ a .page_section_head_text {
 
     .page_content {
         display: flex;
-        height: 20rem;
+        min-height: 20rem;
         justify-content: space-evenly; 
     }
 
@@ -307,11 +322,6 @@ a .page_section_head_text {
 
     .section_pic_box {
         width: 40%;
-        display: flex;
-    }
-
-    .section_pic_box a {
-        margin: auto;
     }
 
     .page_section {
