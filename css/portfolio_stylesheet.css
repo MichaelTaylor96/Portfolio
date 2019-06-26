@@ -9,7 +9,7 @@
 
 img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 20rem;
 }
 
 body {
@@ -78,16 +78,24 @@ nav {
 
 .project_pic:hover {
     border: solid rgb(28, 96, 241) 5px;
-}    
+} 
 
 .section_pic {
     border-radius: 10px;
     margin-bottom: 3%;
 }
 
+.section_pic_box a {
+    margin: auto;
+}
+
+.section_pic_box {
+    align-items: center;
+}
+
 .header {
     text-align: center;
-    padding-bottom: 14%;
+    padding-bottom: 8%;
     padding-top: 14%;
     font-weight: Bolder;
     font-size: 80px;
@@ -99,12 +107,36 @@ nav {
     margin-bottom: 6rem;
 }
 
+.detail_content {
+    padding: auto;
+    margin-bottom: 6rem;
+    margin: auto;
+}
+
+.detail_content h2 {
+    margin-left: 4rem;
+}
+
+.detail_section {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.detail_pic_box {
+    margin: auto;
+    width: 40%;
+}
+
 .page_section_head {
     align-items: center;
 }
 
 .page_section_head_text {
     margin: 1% 0;
+}
+
+a .page_section_head_text {
     color: blue;
 }
 
@@ -264,7 +296,7 @@ nav {
 
     .header {
         text-align: left;
-        padding: 10% 4%;
+        padding: 10% 4% 7% 4%;
     }
 
     .resume_header {
@@ -276,7 +308,10 @@ nav {
     .section_pic_box {
         width: 40%;
         display: flex;
-        align-items: center;
+    }
+
+    .section_pic_box a {
+        margin: auto;
     }
 
     .page_section {
