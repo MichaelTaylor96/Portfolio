@@ -13,7 +13,7 @@ img {
 }
 
 body {
-    background-color:  rgb(219, 216, 196); 
+    background-color: rgb(219, 216, 196); 
 }
 
 .banner {
@@ -24,11 +24,21 @@ body {
     box-shadow: 0px 10px 15px rgb(177, 174, 157);
 }
 
+.watermark_section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+hr {
+    height: 0;
+    width: 40%;
+}
+
 .watermark_box {
     display: block;
-    margin: auto;
     width: 4rem;
-    padding-bottom: 3rem;
 }
 
 .watermark {
@@ -76,9 +86,6 @@ nav {
     margin: auto;
     margin-bottom: 23px;
     background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(/images/paper.jpg);
-    /* border-bottom: 6px solid #a3a3a3;
-    border-left: 6px solid #a3a3a3;
-    border-right: 6px solid #a3a3a3; */
     box-shadow: 0px 10px 15px rgb(177, 174, 157);
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -104,10 +111,10 @@ nav {
 .header {
     text-align: center;
     padding-bottom: 8%;
-    padding-top: 14%;
+    padding-top: 8%;
     font-weight: Bolder;
     font-size: 80px;
-    color: rgb(219, 216, 196);
+    color: darkgray;
 }
 
 .page_content {
@@ -167,10 +174,10 @@ a .page_section_head_text {
 
 .page_section_text {
     background: 
-            url(/images/top_left.jpg) no-repeat top left / 15px 15px,
-            url(/images/top_right.jpg) no-repeat top right / 15px 15px,
-            url(/images/bottom_right.jpg) no-repeat bottom right / 15px 15px,
-            url(/images/bottom_left.jpg) no-repeat bottom left / 15px 15px;
+            url(/images/top_left.png) no-repeat top left / 15px 15px,
+            url(/images/top_right.png) no-repeat top right / 15px 15px,
+            url(/images/bottom_right.png) no-repeat bottom right / 15px 15px,
+            url(/images/bottom_left.png) no-repeat bottom left / 15px 15px;
     padding: 2% 2%;
     margin-top: 10%;
     text-align: center;
@@ -297,10 +304,6 @@ a .page_section_head_text {
         padding: 1.5rem;
     }
 
-    .header {
-        font-size: 100px;
-    }
-
     .nav_button {
         font-size: 30px;
     }
@@ -313,7 +316,8 @@ a .page_section_head_text {
 
     .header {
         text-align: left;
-        padding: 10% 4% 7% 4%;
+        padding: 8% 4% 8% 7%;
+        font-size: 100px;
     }
 
     .resume_header {
@@ -341,7 +345,7 @@ a .page_section_head_text {
     }
 
     .quote {
-        padding: 5% 0 10% 0;
+        padding: 0% 0 6% 0;
     }
 }
 
